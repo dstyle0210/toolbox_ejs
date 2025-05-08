@@ -1,0 +1,30 @@
+{
+  "name": "toolbox_ejs",
+  "version": "1.0.0",
+  "description": "ejs기반의 웹퍼블리싱 도구함",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "dev": "gulp dev",
+    "dist": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dstyle0210/toolbox_ejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dstyle0210/toolbox_ejs/issues"
+  },
+  "homepage": "https://github.com/dstyle0210/toolbox_ejs#readme",
+  "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "gulp": "^5.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
